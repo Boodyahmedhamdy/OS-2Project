@@ -1,20 +1,17 @@
 import static java.util.concurrent.TimeUnit.SECONDS;
 import java.util.Date;
-import java.util.LinkedList;
-import java.util.List;
 import java.util.Random;
 import java.util.Scanner;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
-import java.util.concurrent.atomic.AtomicInteger;
 
 public class SleepingBarber {
 
     public static void main (String[] a) throws InterruptedException {
 
         //initializing the number of barber and customers
-        int noOfBarbers=2, customerId=1, noOfCustomers=100, noOfChairs;
+        int noOfBarbers=2, customerId=1, noOfCustomers=10, noOfChairs;
 
         Scanner sc = new Scanner(System.in);
 
